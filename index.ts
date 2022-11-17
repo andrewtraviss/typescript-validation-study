@@ -28,6 +28,7 @@ import ajvStandalone from './solutions/json-schema/standalone'
 import yup from './solutions/yup'
 import zod from "./solutions/zod"
 import superstruct from "./solutions/superstruct"
+import typebox from "./solutions/typebox"
 
 export const solutions: [string, Validators][] = [
     ["io-ts", iots],
@@ -36,5 +37,6 @@ export const solutions: [string, Validators][] = [
     ['yup', yup],
     ['zod', zod],
     ['superstruct', superstruct],
-    ['ajv-standalone', ajvStandalone]
+    ['ajv-standalone', ajvStandalone],
+    ['typebox', typebox]
 ];
